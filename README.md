@@ -25,7 +25,7 @@ Para baixar, compilar e executar em seu computador, você deve ter:
 1. Franklin Barbosa de Oliveira - franklin.oliveira@escolar.ifrn.edu.br
 2. Jackson Ricardo dos Santos da Silva - jackson.r@escolar.ifrn.edu.br
 3. Pedro Henrique da Costa Barros - p.barros@escolar.ifrn.edu.br
-4. Rafael Geronimo de França Xavier - rafael.geronimo@escolar.ifrn.edu.br
+4. Lucas Felipe Santos da Cruz - @escolar.ifrn.edu.br
 
 
 # Informações do Projeto Django
