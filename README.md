@@ -1,5 +1,5 @@
-# Esteja Segura 
-O Esteja Segura é uma Plataforma Web que visa ajudar as empresas na contratação/localização de mulheres e pessoas em geral com a devida qualificação. Ajudando mulheres e pessoas LGBTQIA+ a entrarem no mercado de trabalho.
+# IServices 
+O Iservices é uma Plataforma Web que visa ajudar as empresas na contratação/localização de mulheres e pessoas em geral com a devida qualificação. Ajudando mulheres e pessoas LGBTQIA+ a entrarem no mercado de trabalho.
 
 # Documentação 
 ##### Verifique o diretório da documentação do sistema: 
