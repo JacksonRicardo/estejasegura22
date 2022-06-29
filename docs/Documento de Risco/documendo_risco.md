@@ -1,5 +1,12 @@
 # Iservices! - Gerenciamento de Processo
 
+| Data       |  Versão  |  Descrição                                          | Autores                              |
+| -----------| ---------| ----------------------------------------------------| -------------------------------------|
+| 18/05/2022 |  1.0     | Processo de concepção inicial dos riscos            | P.Barros, F. Barbosa, Jackson e Lucas|
+| 13/06/2022 |  1.1     | Edição/Criação dos campos 2.4 a 2.6.                | P.Barros, F. Barbosa, Jackson e Lucas|
+| 25/06/2022 |  1.2     | Refinamento de todos os campos da Análise de Riscos.| P.Barros, F. Barbosa, Jackson e Lucas|
+| 26/06/2022 |  1.4     | Criação de tabela detalhada da Análise de Risco.    | P.Barros, F. Barbosa, Jackson e Lucas|
+
 
 ## 1. Resumo
 #### Este documento foi criado com o intuito de descrever os riscos que possam impedir ou atrasar a conclusão de alguma etapa do projeto. Nela estarão contidas formas de mitigar as falhas ou atrasos nas entregas parciais ou totais (completas). Descrevendo as fases da Análise, Desenvolvimento e Implantação. 
