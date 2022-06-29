@@ -146,4 +146,33 @@
 - O usuário não pode avaliar mais de uma vez
 ### E1. O sistema informa que o usuário já realizou a avaliação, e retorna a página de “Prestadores de serviço” 
 
+## CDU: Interagir em comentários
+### 1. Descrição 
+### O cliente, cadastrado e logado, poderá interagir nas avaliações feitas por outros clientes.
+
+### 2. Atores 
+- cliente – Humano, primário, ativo.
+
+### 3. Pré-condições 
+- Cliente estar cadastrado e logado no sistema.
+
+### 4. Pós-condições 
+- Cliente curtir um comentário de outro usuário anterior;
+- Sistema contabilizar sua curtida no comentário da avaliação do serviço.
+
+### 5. Fluxo principal
+
+### 1. O cliente visualiza um serviço;
+### 2. O sistema apresenta as informações daquele serviço, seu prestador e suas avaliações;
+### 3. O cliente curte um ou mais comentários das avaliações daquele prestador;
+### 4. O sistema contabiliza as curtidas nos comentários, e notifica o prestador.
+
+### 6. Fluxo alternativo: Não se aplica
+
+### 7. Situações de erro
+- O usuário curte um comentário que não queria
+### E1. O usuário cadastrado e logado “descurte” (retira a curtida que tinha dado) um dos comentários que tinha curtido sem querer
+- O caso de uso retorna ao passo 4 do fluxo principal.
+
+
 
