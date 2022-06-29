@@ -50,17 +50,18 @@
 
 | Código|  Nome                            |  Descrição                                          |
 | ------| ---------------------------------| ----------------------------------------------------| 
-| RF01  |  Busca serviço/prestador         | Processo de concepção inicial dos riscos            | 
-| RF02  |  Solicitar serviço               | Edição/Criação dos campos 2.4 a 2.6.                | 
-| RF03  |  Contratar serviço               | Refinamento de todos os campos da Análise de Riscos.|
-| RF04  |  Avaliar serviço e prestador     | Criação de tabela detalhada da Análise de Risco.    | 
-| RF05  |  Interagir em comentários        | Criação de tabela detalhada da Análise de Risco.    | 
-| RF06  |  Cadastrar usuário               | Criação de tabela detalhada da Análise de Risco.    | 
-| RF07  |  Autenticar Cliente              | Criação de tabela detalhada da Análise de Risco.    | 
-| RF08  |  Autenticar Prestador            | Criação de tabela detalhada da Análise de Risco.    | 
-| RF09  |  Gerenciar perfil                | Criação de tabela detalhada da Análise de Risco.    | 
-| RF10  |  Validar identidade do prestador | Criação de tabela detalhada da Análise de Risco.   | 
-| RF11  |  Confirmar solicitação de serviço| Criação de tabela detalhada da Análise de Risco.  | 
+| RF01  |  Busca serviço/prestador         | O usuário poderá fazer uma busca por serviços e/ou prestador de serviços que mais se encaixa na sua necessidade.            | 
+| RF02  |  Solicitar serviço               | O usuário solicita um serviço de um prestador escolhido com base nas avaliações que o mesmo possui em seu perfil. A solicitação é uma demonstração de interesse que requer uma confirmação.| 
+| RF03  |  Contratar serviço               | O usuário poderá, de fato, contratar um serviço após um contato prévio com o prestador e ambos estiverem de acordo. |
+| RF04  |  Avaliar serviço e prestador     | Cada prestador de serviço poderá ser avaliado e ter seu serviço avaliado pelos usuários, não sendo obrigatória esta avaliação para o usuário.     | 
+| RF05  |  Interagir em comentários        | Os usuários, cadastrados e logados na plataforma, poderão curtir comentários de avaliações feitas de outros usuários nos serviços dos prestadores.    | 
+| RF06  |  Cadastrar usuário               | A pessoa que for se cadastrar no Iservices! Poderá escolher entre: se cadastrar como Cliente ou Prestador de Serviço.    | 
+| RF07  |  Autenticar Cliente              | Para poder fazer a solicitação de um ou mais serviços o usuário cadastrado deverá realizar o login, informando seu usuário e senha.    | 
+| RF08  |  Autenticar Prestador            | O prestador autenticado/logado poderá ver possíveis anúncios de clientes precisando de algum serviço, além de poder confirmar a prestação de seus serviços a um determinado cliente.    | 
+| RF09  |  Gerenciar perfil                | O usuário cadastrado, tanto os prestadores como os clientes, podem atualizar os dados de seu perfil e/ou excluir sua conta do sistema. | 
+| RF10  |  Validar identidade do prestador | Os prestadores de serviços cadastrados deverão a cada período cadastrado atualizar seus dados para manter-se ativo como prestador de serviço. Atualizando seus documentos exigidos no ato do primeiro cadastro na plataforma. | 
+| RF11  |  Confirmar solicitação de serviço| 
+O prestador que teve seu serviço solicitado é notificado e o sistema espera até que ele confirme o agendamento do serviço para o cliente. | 
 
 
 
