@@ -113,5 +113,25 @@
 | CDU-15  |  Validar identidade do prestador| Os prestadores de serviços cadastrados deverão a cada período cadastrado atualizar seus dados para manter-se ativo como prestador de serviço. Atualizando seus documentos exigidos no ato do primeiro cadastro na plataforma.| 
 
 
+### 9.3. Requisitos funcionais (RF) VS Casos de uso (CDU)
+
+
+| XXXXXX| RF01| RF02| RF03| RF04| RF05| RF06| RF07| RF08| RF09| RF10| RF11|
+| ------| ----| ----| ----| ----| ----| ----|-----|-----|-----| ----| ----|
+| CDU-01|  X  |     |     |     |     |     |     |     |     |     |     |
+| CDU-02|     |  X   |     |     |     |     |     |     |     |     |     |
+| CDU-03|     |     |  X   |     |     |     |     |     |     |     |     |
+| CDU-04|     |     |     |   X  |     |     |     |     |     |     |     |
+| CDU-05|     |     |     |     |     |   X  |     |     |     |     |     |
+| CDU-06|     |     |     |     |   X  |     |     |     |     |     |     |
+| CDU-07|     |     |     |     |     |     |  X   |     |     |     |     |
+| CDU-08|     |     |     |     |     |     |     |   X  |     |     |     |
+| CDU-09|     |     |     |     |     |     |     |     |  X   |     |     |
+| CDU-10|     |     |     |     |     |     |     |     |     |     |     |
+| CDU-11|     |   X  |     |  X   |   X  |     |     |     |     |   X  |     |
+| CDU-12|     |     |   X  |     |     |     |     |     |     |     |     |
+| CDU-13|     |     |     |     |     |     |     |     |     |     |  X   |
+| CDU-14|     |     |     |     |     |     |     |     |  X   |     |     |
+| CDU-15|     |     |     |     |     |     |     |     |     |  X   |     |
 
 
