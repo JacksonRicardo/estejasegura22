@@ -60,8 +60,7 @@
 | RF08  |  Autenticar Prestador            | O prestador autenticado/logado poderá ver possíveis anúncios de clientes precisando de algum serviço, além de poder confirmar a prestação de seus serviços a um determinado cliente.    | 
 | RF09  |  Gerenciar perfil                | O usuário cadastrado, tanto os prestadores como os clientes, podem atualizar os dados de seu perfil e/ou excluir sua conta do sistema. | 
 | RF10  |  Validar identidade do prestador | Os prestadores de serviços cadastrados deverão a cada período cadastrado atualizar seus dados para manter-se ativo como prestador de serviço. Atualizando seus documentos exigidos no ato do primeiro cadastro na plataforma. | 
-| RF11  |  Confirmar solicitação de serviço| 
-O prestador que teve seu serviço solicitado é notificado e o sistema espera até que ele confirme o agendamento do serviço para o cliente. | 
+| RF11  |  Confirmar solicitação de serviço| O prestador que teve seu serviço solicitado é notificado e o sistema espera até que ele confirme o agendamento do serviço para o cliente. | 
 
 
 
