@@ -19,7 +19,6 @@
 #### E, por fim, indicadores de prioridade alta são aqueles com alto risco de atrasos e a não finalização do projeto, serão desconfortáveis para o cliente final e a equipe de desenvolvimento. Caso o cliente decida por prorrogar o prazo, então deverão ser consideradas novas medidas de mitigação, caso contrário, todo o projeto será perdido.
 
 ## 2.2 - Classificação ou Gravidade do Risco
-#### [Um indicador da gravidade do risco poderá ser atribuído para ajudar a classificar os riscos desde os que causarão mais danos até os que causarão menos dano ao projeto.]
 #### Baixa: risco de pouco atraso na entrega do projeto e facilidade de contornar.
 #### Média: Eventualidade impactante que pode ser contornada, mas irá gerar atraso, caso não    sejam dedicadas horas extras para reparo.
 #### Alta: risco de atraso, com probabilidade de não entregar projeto a tempo.
@@ -47,3 +46,8 @@
 ## 2.6 - Plano de Contingência
 
 #### Não existe tempo hábil para mudanças drásticas. As ações realizadas giram em torno de tentar finalizar a entrega mínima possível com base nas soluções dos orientadores.
+
+## 2.7 - Tabela resumida da Análise de Risco
+
+![Tabela](https://user-images.githubusercontent.com/42697964/176436528-932f979e-7bc9-4e54-961e-1589b1f247f7.png)
+
