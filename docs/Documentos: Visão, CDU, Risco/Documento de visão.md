@@ -96,21 +96,21 @@
 
 | Código|  Nome                            |  Descrição                                          |
 | ------| ---------------------------------| ----------------------------------------------------| 
-| CDU-01  |  Implementação | Tem uso em várias aplicações e é considerada uma ótima alternativa para criação de app web de forma simples e poderosa. Tendo como os dois principais frameworks o Django e o Flask.  | 
-| CDU-02  |  Padrões | Um framework de desenvolvimento rápido para web, com arquitetura relativamente simples. Usa um padrão de projeto MTV e toda a arquitetura é interligada e conversa entre si. | 
-| CDU-03  |  Plataforma Web |A aplicação do sistema deve ser Web, com funcionalidades de cadastro, solicitação e avaliação. |
-| CDU-04  |  Usbabilidade | Uso de Design responsivo nas interfaces gráficas, se adequando a diferentes browsers e mantendo o design responsivo, com a facilidade de aprender e facilidade de usar a plataforma. | 
-| CDU-05  |  Compatibilidade | Compatibilidade com sistemas operacionais Windows e Linux. | 
-| CDU-06  |  Segurança| As informações prestadas pelos usuários são sigilosas, sendo utilizada a validação no sistema por documentos comprobatórios como para verificação da identidade do usuário. | 
-| CDU-07  |  Integridade | Apenas usuários com o perfil de prestador poderão visualizar, a aba Clientes que solicitaram os serviços e a aba Cadastrar especialidades.   | 
-| CDU-08  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
-| CDU-09  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
-| CDU-10  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
-| CDU-11  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
-| CDU-12  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
-| CDU-13  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
-| CDU-14  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
-| CDU-15  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
+| CDU-01  |  Busca serviço/prestador | O usuário poderá buscar por um prestador usando o botão “Prestadores de serviços”, onde é listado todos os prestadores cadastrados na plataforma. Ou ainda usando a barra de pesquisa onde poderá digitar o nome do prestador que deseja solicitar um serviço. | 
+| CDU-02  |  Solicitar serviço | Usuário solicita um serviço de um prestador de serviço que mais se encaixa na sua necessidade. | 
+| CDU-03  |  Confirmar solicitação de serviço |O prestador que teve seu serviço solicitado é notificado e o sistema espera até que ele confirme o agendamento do serviço para o cliente. |
+| CDU-04  |  Avaliar serviço e Prestador | O usuário poderá avaliar o serviço prestado/prestador de serviço, para assim ajudar os futuros usuários (clientes) na escolha de um(a) prestador de serviço. | 
+| CDU-05  |  Cadastrar usuário | A pessoa que for se cadastrar no Iservices! Poderá escolher entre: se cadastrar como Cliente ou Prestador de Serviço. | 
+| CDU-06  |  Interagir em comentários| Os usuários, cadastrados e logados na plataforma, poderão curtir comentários de avaliações feitas de outros usuários nos serviços dos prestadores. | 
+| CDU-07  |  Autenticar Cliente | Para poder fazer a solicitação de um ou mais serviços o usuário cadastrado deverá realizar o login, informando seu usuário e senha.   | 
+| CDU-08  |  Autenticar Prestador |O prestador autenticado/logado poderá ver possíveis anúncios de clientes precisando de algum serviço, além de poder confirmar a prestação de seus serviços a um determinado cliente. | 
+| CDU-09  |  Gerenciar perfil | O usuário cadastrado poderá gerenciar seu perfil na plataforma, sendo possível atualizar os dados, foto de perfil e até mesmo excluir sua conta da plataforma  | 
+| CDU-10  |  Cadastrar especialidade| O prestador de serviço que se cadastrar na plataforma poderá escolher entre as especialidades já previamente cadastradas na plataforma, caso queira uma que ainda não tenha poderá solicitar essa nova especialidade.  | 
+| CDU-11  | Notificar prestador| O prestador é notificado quando: (I) serviço é solicitado, (II) avaliação é feita, (III) interação é feita em uma avaliação sua, (IV) solicitação é cancelada, (V) documentação é validada. | 
+| CDU-12  |  Contratar serviço| Após o prestador, que teve seu serviço solicitado, confirmar o agendamento, o serviço será prestado ao cliente. | 
+| CDU-13  |  Ler notificações| Tanto o Cliente quanto o Prestador terão uma tela de notificação dentro do Iservices! onde poderão ver suas notificações.  | 
+| CDU-14  |  Visualizar serviços| O Cliente e o Prestador poderão visualizar os serviços que já foram solicitados, prestados e cancelados.  | 
+| CDU-15  |  Validar identidade do prestador| Os prestadores de serviços cadastrados deverão a cada período cadastrado atualizar seus dados para manter-se ativo como prestador de serviço. Atualizando seus documentos exigidos no ato do primeiro cadastro na plataforma.| 
 
 
 
