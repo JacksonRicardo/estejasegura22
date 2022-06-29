@@ -1,5 +1,5 @@
 # IServices 
-O Iservices é uma Plataforma Web que visa ajudar as empresas na contratação/localização de mulheres e pessoas em geral com a devida qualificação. Ajudando mulheres e pessoas LGBTQIA+ a entrarem no mercado de trabalho.
+O IServices é uma aplicação web com o objetivo de simplificar a oferta de serviços para profissionais autônomos e liberais. Com ela qualquer pessoa pode facilmente publicar um anúncio com informações sobre a demanda de serviço que a mesma está demandando. Já os profissionais podem demonstrar interesse em assumir um determinado serviço.
 
 # Documentação 
 ##### Verifique o diretório da documentação do sistema: 
@@ -12,26 +12,75 @@ O Iservices é uma Plataforma Web que visa ajudar as empresas na contratação/l
 6. [Diagrama de Sequência BCE](https://github.com/tads-cnat/estejasegura22/tree/main/docs/Diagrama%20de%20Sequ%C3%AAncia%20BCE)
 7. [Mapeamento entre objetos relacionais, DER e ER](https://github.com/tads-cnat/estejasegura22/tree/main/docs/Mapeamento%20entre%20objetos%20relacionais%2C%20DER%20e%20ER)
 
-# Pré-requisitos
-Para baixar, compilar e executar em seu computador, você deve ter:
-* Sistema de controle de versões [git](https://www.git-scm.com/)
-* Linguagem de Programação [python3](https://www.python.org/)
-* Gerenciador de Pacotes [pip](https://pypi.org/project/pip/)
-* Framework de Desenvolvimento [Django](https://www.djangoproject.com/)
+## Stack utilizada
+**Front-end:** React, Redux, Boostrap
+
+**Back-end:** Python, [Django Rest Framework](https://www.django-rest-framework.org/), swagger
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://link-para-o-projeto
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd my-project
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run start
+```
 
 
+## Documentação
 
-# Equipe de desenvolvimento
-1. Franklin Barbosa de Oliveira - franklin.oliveira@escolar.ifrn.edu.br
-2. Jackson Ricardo dos Santos da Silva - jackson.r@escolar.ifrn.edu.br
-3. Lucas Felipe Santos da Cruz - c.felipe@escolar.ifrn.edu.br
-4. Pedro Henrique da Costa Barros - p.barros@escolar.ifrn.edu.br
+[Documentação](https://link-da-documentação)
 
 
+## Documentação da API
 
-# Informações do Projeto Django
-##### Projeto para o PDS Web (3º período do TADS/CNAT).
-* Nome do Projeto: Esteja Segura
-* Nome da aplicação: EstejaSegura.py
+#### Retorna todos os itens
+
+```http
+  GET /api/items
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `api_key` | `string` | **Obrigatório**. A chave da sua API |
+
+#### Retorna um item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
+
+#### add(num1, num2)
+
+Recebe dois números e retorna a sua soma.
 
 
+## Equipe
+- Franklin Barbosa de Oliveira - franklin.oliveira@escolar.ifrn.edu.br
+- Jackson Ricardo dos Santos da Silva - jackson.r@escolar.ifrn.edu.br
+- [Lucas Santos - GitHub](https://github.com/lucas-santos)
+- Pedro Henrique da Costa Barros - p.barros@escolar.ifrn.edu.br
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
