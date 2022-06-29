@@ -206,5 +206,44 @@
 - O caso de uso retorna ao passo 2 do fluxo principal
 
 
+## CDU: Validar identidade do prestador
+### 1. Descrição
+### O usuário que será um possível prestador de serviços terá alguns documentos para anexar, para assim o sistema avaliar se esse possível prestador está apto para ser um prestador de serviço dentro da plataforma.
+
+### 2. Atores
+- Prestador de serviço – Humano, primário, ativo.
+
+### 3. Pré-condições
+- Usuário já deve ter iniciado seu cadastro como prestador de serviços
+
+### 4. Pós-condições
+ - Usuário finaliza o cadastro como um possível prestador de serviço;
+ - O sistema fica responsável por notificar quando a avaliação estiver completa.
+
+### 5. Fluxo principal
+- Estende o CDU “Cadastrar usuário”
+### 1. O sistema exibe uma nova página com opções para anexar e envio dos documentos:
+### Envio de currículo
+- Documento PDF com currículo pessoal que será visto pelos usuários no perfil do profissional
+### Foto de perfil com documento com foto (RG, CNH, Passaporte)
+- Para verificar se a identidade da pessoa que está se cadastrando é a mesma do documento
+### Certidão de antecedentes criminais:
+- Disponível no site https://www.gov.br/pt-br/servicos/emitir-certidao-de-antecedentes-criminais
+### 2. O usuário realiza o upload dos documentos e clica em “Enviar documentos”.
+### 3. O sistema pede para o usuário confirmar;
+### 4. O usuário confirma;
+### 5. O usuário confirma as informações e clica em “Confirmar envio”
+### 6. O Sistema informa que o cadastro entrou em análise dando um prazo para a resposta.
+
+
+### 6. Fluxo alternativo: Não se aplica
+
+### 7. Situações de erro
+- Usuário não anexa os documentos pedidos no formulário e tenta enviar
+### E2. O sistema informa que os documentos não foram todos anexados, e pede para o prestador anexar.
+- O caso de uso retorna ao passo 1 do fluxo principal ou do fluxo alternativo.
+
+
+
 
 
