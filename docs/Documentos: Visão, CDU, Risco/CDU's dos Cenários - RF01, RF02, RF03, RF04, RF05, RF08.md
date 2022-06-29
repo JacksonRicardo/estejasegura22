@@ -174,5 +174,37 @@
 ### E1. O usuário cadastrado e logado “descurte” (retira a curtida que tinha dado) um dos comentários que tinha curtido sem querer
 - O caso de uso retorna ao passo 4 do fluxo principal.
 
+## CDU: Cadastrar usuário
+### 1. Descrição
+### O usuário que for se cadastrar poderá escolher entre: se cadastrar como Cliente ou Prestador de Serviço.
+
+### 2. Atores
+- Usuário – Humano, primário, ativo.
+
+3. Pré-condições: Não se aplica
+
+### 4. Pós-condições
+- Usuário ter escolhido um tipo de cadastro e ter realizado seu perfil na plataforma.
+
+### 5. Fluxo principal
+
+### 1. O usuário acessa o sistema;
+### 2. O sistema exibe a página com a opção de Login e Cadastro;
+### 3. O usuário clica em Cadastro;
+### 4. O sistema apresenta duas opções:
+- Prestador de serviço
+- Cliente
+### 5. O usuário escolhe a opção que deseja, preenche os campos com seus dados e clica em Criar Perfil;
+### 6. O sistema informa que o perfil foi criado com sucesso e exibe o perfil recém criado.
+
+
+### 6. Fluxo alternativo: Não se aplica
+
+### 7. Situações de erro
+- Usuário não realizou cadastro e tentar fazer login
+	### E1. O sistema informa que não existe registro daquele usuário na plataforma.
+- O caso de uso retorna ao passo 2 do fluxo principal
+
+
 
 
