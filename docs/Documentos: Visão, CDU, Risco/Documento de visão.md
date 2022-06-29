@@ -63,5 +63,55 @@
 | RF11  |  Confirmar solicitação de serviço| O prestador que teve seu serviço solicitado é notificado e o sistema espera até que ele confirme o agendamento do serviço para o cliente. | 
 
 
+### 7. Requisitos não-funcionais 
+| Código|  Nome                            |  Descrição                                          |
+| ------| ---------------------------------| ----------------------------------------------------| 
+| RNF01  |  Implementação | Tem uso em várias aplicações e é considerada uma ótima alternativa para criação de app web de forma simples e poderosa. Tendo como os dois principais frameworks o Django e o Flask.  | 
+| RNF02  |  Padrões | Um framework de desenvolvimento rápido para web, com arquitetura relativamente simples. Usa um padrão de projeto MTV e toda a arquitetura é interligada e conversa entre si. | 
+| RNF03  |  Plataforma Web |A aplicação do sistema deve ser Web, com funcionalidades de cadastro, solicitação e avaliação. |
+| RNF04  |  Usbabilidade | Uso de Design responsivo nas interfaces gráficas, se adequando a diferentes browsers e mantendo o design responsivo, com a facilidade de aprender e facilidade de usar a plataforma. | 
+| RNF05  |  Compatibilidade | Compatibilidade com sistemas operacionais Windows e Linux. | 
+| RNF06  |  Segurança| As informações prestadas pelos usuários são sigilosas, sendo utilizada a validação no sistema por documentos comprobatórios como para verificação da identidade do usuário. | 
+| RNF07  |  Integridade | Apenas usuários com o perfil de prestador poderão visualizar, a aba Clientes que solicitaram os serviços e a aba Cadastrar especialidades.   | 
+| RNF08  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.   | 
+
+### 8. Regras de negócio 
+#### [RN1] A cada ano, os prestadores(as) de serviço terão que atualizar as certidões, enviando novamente os documentos requisitados. A cada ano ele terá que atualizar as certidões.
+#### [RN2] Os documentos que não forem enviados no prazo de uma hora, o link irá expirar, tendo que fazer novamente a solicitação pelo sistema.
+#### [RN3] O usuário poderá buscar por prestadores sem estar autenticado, no entanto para realizar a solicitação terá que estar autenticado.
+#### [RN4] Apenas o Administrador poderá validar os documentos comprobatórios dos prestadores de serviços e dos usuários.  
+#### [RN5] Apenas o Administrador poderá cadastrar as especialidades escolhidas pelos prestadores(as) de serviço na hora do cadastro.
+#### [RN6] Um usuário (cliente) poderá avaliar um serviço e seu prestador quando o serviço for prestado.
+#### [RN7] O prestador de serviço poderá ser uma pessoa Física ou uma pessoa Jurídica, dependendo em que categoria se encaixe melhor.
+#### [RN8] Um prestador de serviço só estará disponível para prestar seu serviço depois que seus documentos forem analisados e aceitos pelo administrador. 
+#### [RN9] Os usuários só poderão contratar um serviço se o prestador confirmar o agendamento de tal serviço.
+#### [RN10] O prestador de serviço não será notificado, quando um cliente realizar uma avaliação do seu atendimento, a fim de manter o sigilo dos usuários. No entanto, o mesmo poderá acompanhar as suas notas de avaliação no seu perfil.
+
+### Casos de uso 
+### 9.1. Diagrama de casos de uso
+
+![CDU](https://user-images.githubusercontent.com/42697964/176502804-f2c6cb4d-4623-4535-b8a8-8b76bc05a344.jpg)
+
+### 9.2. Descrição dos casos de uso
+
+| Código|  Nome                            |  Descrição                                          |
+| ------| ---------------------------------| ----------------------------------------------------| 
+| CDU-01  |  Implementação | Tem uso em várias aplicações e é considerada uma ótima alternativa para criação de app web de forma simples e poderosa. Tendo como os dois principais frameworks o Django e o Flask.  | 
+| CDU-02  |  Padrões | Um framework de desenvolvimento rápido para web, com arquitetura relativamente simples. Usa um padrão de projeto MTV e toda a arquitetura é interligada e conversa entre si. | 
+| CDU-03  |  Plataforma Web |A aplicação do sistema deve ser Web, com funcionalidades de cadastro, solicitação e avaliação. |
+| CDU-04  |  Usbabilidade | Uso de Design responsivo nas interfaces gráficas, se adequando a diferentes browsers e mantendo o design responsivo, com a facilidade de aprender e facilidade de usar a plataforma. | 
+| CDU-05  |  Compatibilidade | Compatibilidade com sistemas operacionais Windows e Linux. | 
+| CDU-06  |  Segurança| As informações prestadas pelos usuários são sigilosas, sendo utilizada a validação no sistema por documentos comprobatórios como para verificação da identidade do usuário. | 
+| CDU-07  |  Integridade | Apenas usuários com o perfil de prestador poderão visualizar, a aba Clientes que solicitaram os serviços e a aba Cadastrar especialidades.   | 
+| CDU-08  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
+| CDU-09  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
+| CDU-10  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
+| CDU-11  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
+| CDU-12  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
+| CDU-13  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
+| CDU-14  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
+| CDU-15  |  Suporte| Suporte a plataforma será feito de forma remota, após ser notificado da falha no sistema a equipe de desenvolvimento irá trabalhar na manutenção do erro. Sendo o usuário avisado previamente que algum serviço poderá ser interrompido por determinado período.  | 
+
+
 
 
