@@ -239,7 +239,7 @@
 ### 6. Fluxo alternativo: Não se aplica
 
 ### 7. Situações de erro
-- Usuário não anexa os documentos pedidos no formulário e tenta enviar
+- Usuário não anexa os documentos pedidos no formulário e tenta enviar.
 ### E2. O sistema informa que os documentos não foram todos anexados, e pede para o prestador anexar.
 - O caso de uso retorna ao passo 1 do fluxo principal ou do fluxo alternativo.
 
