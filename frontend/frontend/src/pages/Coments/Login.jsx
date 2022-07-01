@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 
-import Header from "../../components/header";
-import PrestServ from "../../components/prestServ";
+import Header from "../../components/header/Header";
+//import PrestServ from "../../components/prestServ/PrestServ";
 
-import './style.css';
+//import './Prestserv.css';
 
 class Home extends Component{
     render(){
         return(
             <>
                <Header/> 
-               <PrestServ/>
             </>
         )
     }
