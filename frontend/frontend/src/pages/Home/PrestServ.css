@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: cornflowerblue;
+    background-color: var(--background);
     padding: 30px 40px;
     height: 80vh;
 }
@@ -13,11 +13,11 @@ body > main > table{
 }
 
 .topo-tabela{
-    color: black;
+    color: var(--card-title);
 }
 
 .coluna{
-    color: gray;
+    color: var(--anchor);
 }
 
 td{

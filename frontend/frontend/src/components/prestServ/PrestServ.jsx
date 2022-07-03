@@ -1,6 +1,20 @@
 import React, { Component } from "react";
+import api from '../../api'
 
 class Prest_Serv extends Component{
+
+    state = {
+        prestadores: [],
+
+    }
+
+    async componentDidMount(){
+        const response = await api.get('')
+        console.log(response.data)
+
+        this.setState({prestadores: response.data});
+    }
+
     render(){
         return(
             <main className="principal">
@@ -14,7 +28,7 @@ class Prest_Serv extends Component{
                         <td className="topo-tabela">Avaliação do Prestador</td> 
                     </tr>
                         
-                    <tr className="coluna">                         
+                    <tr className="coluna">
                         <td><a href="siteestejasegura:form_login prestador.id"> 
                             prestador.nome</a></td>
                         <td><a href="/models/{{prestador.id}}">
@@ -37,8 +51,8 @@ class Prest_Serv extends Component{
                         
                 </table>
             </main>
-        )
-    }
-}
+        );
+    };
+};
 
 export default Prest_Serv
