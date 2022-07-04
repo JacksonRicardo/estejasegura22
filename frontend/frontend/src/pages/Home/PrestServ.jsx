@@ -7,13 +7,11 @@ import './Header.css';
 import './PrestServ.css';
 import './Reset.css';
 import './Var.css';
-
-
 class Home extends Component{
     render(){
         return(
             <>
-               <Header/> 
+               
                <PrestServ/>
             </>
         )

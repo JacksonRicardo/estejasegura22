@@ -20,7 +20,7 @@ from servicos.api import viewsets as servicosviewsets
 
 route  = routers.DefaultRouter()
 route.register(r'servicos/pessoa', servicosviewsets.PessoaViewSet, basename="Pessoa")
-route.register(r'servicos/prestador', servicosviewsets.PrestadorViewSet, basename="Prestador")
+route.register(r'', servicosviewsets.PrestadorViewSet, basename="Prestador")
 
 urlpatterns = [
     path('admin/', admin.site.urls),

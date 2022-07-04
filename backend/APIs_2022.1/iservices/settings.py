@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     #Apps
     'servicos',
+    'corsheaders'
     
 ]
 
@@ -52,6 +53,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'iservices.urls'
@@ -71,6 +74,8 @@ TEMPLATES = [
         },
     },
 ]
+
+CORS_ORIGIN_ALLOW_ALL = True   
 
 WSGI_APPLICATION = 'iservices.wsgi.application'
 
