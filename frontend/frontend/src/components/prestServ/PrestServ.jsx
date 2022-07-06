@@ -21,18 +21,16 @@ class Prest_Serv extends Component{
 
         return(
             <div> 
-                <h1> RODANDO... </h1>
+                <h1> Prestadores </h1>
                 {/* {console.log(prestadores)} */}
                 {prestadores.map(prestadores => (
-                    <li key = {prestadores.id}>
-                        <h2>
-                            <strong>Nome: </strong>
-                            {prestadores.nome}
-                        </h2>
-                        <p>
-                            E-mail: {prestadores.email}
-                        </p>
-                    </li>
+                <ul key = {prestadores.id}> 
+                    <li><strong>Nome: </strong>{prestadores.nome}</li>
+                    <li><strong>Gênero: </strong>{prestadores.genero}</li>
+                    <li><strong>E-mail: </strong>{prestadores.email}</li>
+                    <li><strong>CNPJ: </strong>{prestadores.cnpj}</li>
+                    <li><strong>Especilalidade: </strong>{prestadores.especialidade}</li>
+                </ul>
                 ))}
             </div>
         );
