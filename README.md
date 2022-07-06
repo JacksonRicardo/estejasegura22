@@ -74,7 +74,6 @@ Recebe dois números e retorna a sua soma.
 ## Equipe
 - Franklin Barbosa de Oliveira - franklin.oliveira@escolar.ifrn.edu.br
 - Jackson Ricardo dos Santos da Silva - jackson.r@escolar.ifrn.edu.br
-- [Lucas Santos - GitHub](https://github.com/lucas-santos)
 - Pedro Henrique da Costa Barros - p.barros@escolar.ifrn.edu.br
 ## Licença
 
