@@ -69,7 +69,7 @@
 | RNF01  |  Implementação | Tem uso em várias aplicações e é considerada uma ótima alternativa para criação de app web de forma simples e poderosa. Tendo como os dois principais frameworks o Django e o Flask.  | 
 | RNF02  |  Padrões | Um framework de desenvolvimento rápido para web, com arquitetura relativamente simples. Usa um padrão de projeto MTV e toda a arquitetura é interligada e conversa entre si. | 
 | RNF03  |  Plataforma Web |A aplicação do sistema deve ser Web, com funcionalidades de cadastro, solicitação e avaliação. |
-| RNF04  |  Usbabilidade | Uso de Design responsivo nas interfaces gráficas, se adequando a diferentes browsers e mantendo o design responsivo, com a facilidade de aprender e facilidade de usar a plataforma. | 
+| RNF04  |  Usuabilidade | Uso de Design responsivo nas interfaces gráficas, se adequando a diferentes browsers e mantendo o design responsivo, com a facilidade de aprender e facilidade de usar a plataforma. | 
 | RNF05  |  Compatibilidade | Compatibilidade com sistemas operacionais Windows e Linux. | 
 | RNF06  |  Segurança| As informações prestadas pelos usuários são sigilosas, sendo utilizada a validação no sistema por documentos comprobatórios como para verificação da identidade do usuário. | 
 | RNF07  |  Integridade | Apenas usuários com o perfil de prestador poderão visualizar, a aba Clientes que solicitaram os serviços e a aba Cadastrar especialidades.   | 
