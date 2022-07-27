@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    padding: 30px 40px;
+    height: 80vh;
+}
+
+body > main > table{
+    height: 50vh;
+    width: 70vw;
+    margin-left: 13rem;
+}
+
+.topo-tabela{
+    color: var(--card-title);
+}
+
+.coluna{
+    color: var(dark);
+}
+
+td{
+    width: 15rem;
+    height: 4rem;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
