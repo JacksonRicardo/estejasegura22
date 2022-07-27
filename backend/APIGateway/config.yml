@@ -1,4 +1,0 @@
-# Crie aqui os novo caminhos para suas API's
-services:
-  - name: prestador
-    url: 'http://localhost:8000/'
