@@ -12,8 +12,7 @@ class Home extends Component{
         return(
             <>
                 <Header/>
-               <PrestServ/>
-
+                <PrestServ/>
             </>
         )
     }

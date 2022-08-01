@@ -1,1 +1,0 @@
-Diagrama de Sequência BCE.
