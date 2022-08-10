@@ -1,0 +1,31 @@
+COMANDOS PARA SEREM EXECUTADOS NA PASTA "frontend/front":
+
+1) npm install react-scripts --save
+
+2) npm install -g npm@8.16.0 // Atualizar npm (conferir última versão)
+
+3) chmod +x node_modules/.bin/react-scripts // First problem solved
+
+4) delete folder node_modules and package-lock.json
+
+5) frontend/frontend npm install
+
+6) npm i reactstrap --legacy-peer-deps
+
+7) npm install -g npm // Atualizar o npm
+
+8) npm install // instalar o npm
+
+9) npm install axios // instalar axios
+
+COMANDOS PARA SEREM EXECUTADOS DENTRO DA PASTA "backend/APIs_2022.1"
+
+1) pip install djangorestframework
+
+2) sudo pip install --upgrade
+
+3) python -m pip install django-cors-headers // Instalar CorsHeaders
+
+
+
+
