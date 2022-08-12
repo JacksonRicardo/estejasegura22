@@ -12,7 +12,8 @@ a:hover {
     font-weight: bold;
 }
 
-body > header {
+header {
+    /* background-color: brown; */
     display: flex;
     /* flex-direction: row; */
     align-items: center;
@@ -21,22 +22,22 @@ body > header {
     margin-bottom: 50px;
 }
 
-body > header > .logo > a > img {
+header > .logo > a > img {
     height: 200px;
 }
 
-body > header > .actions {
+header > .actions {
     /* flex: 1; */
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-body > header > .actions > a:hover{
+header > .actions > a:hover{
     color: var(--card-title);
 }
 
-body > header > .login {
+header > .login {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -44,7 +45,7 @@ body > header > .login {
     padding-bottom: 50px;
 }
 
-body > header > .login > a {
+header > .login > a {
     font-size: 18px;
 }
 
@@ -53,11 +54,11 @@ body > header > .login > a {
     height: 10px;
 }
 
-body > header > .login > a:hover{
+header > .login > a:hover{
     color: var(--card-title);
 }
 
-body > header > .actions > .search {
+header > .actions > .search {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -66,7 +67,7 @@ body > header > .actions > .search {
     gap: 10px;
 }
 
-body > header > .actions > .search > input {
+header > .actions > .search > input {
     padding: 10px 13px;
     border: none;
     border-radius: var(--border-radius);
@@ -75,12 +76,12 @@ body > header > .actions > .search > input {
     font-size: 18px;
 }
 
-body > header > .actions > .search > input::placeholder {
+header > .actions > .search > input::placeholder {
     padding: 10px 13px;
     color: var(--card-title);
 }
 
-body > header > .actions > .search > a > button {
+header > .actions > .search > a > button {
     cursor: pointer;
     width: fit-content;
     background-color: transparent;
@@ -88,15 +89,15 @@ body > header > .actions > .search > a > button {
     transition: color var(--transition);
 }
 
-body > header > .actions > .search > a > button:hover {
+header > .actions > .search > a > button:hover {
     color: var(--card-title);
 }
 
-body > header > .actions > .search > a > button > svg {
+header > .actions > .search > a > button > svg {
     width: 20px;
 }
 
-body > header > .actions > nav {
+header > .actions > nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -104,10 +105,10 @@ body > header > .actions > nav {
     gap: 20px;
 }
 
-body > header > .actions > nav > a {
+header > .actions > nav > a {
     font-size: 20px;
 }
 
-body > header > .actions > nav > a:hover{
+header > .actions > nav > a:hover{
     color: var(--card-title);
 }
