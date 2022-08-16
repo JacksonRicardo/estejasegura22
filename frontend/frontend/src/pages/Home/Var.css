@@ -3,7 +3,7 @@
     --anchor: #000000;
     --title: #000000;
     --card-background: white;
-    --card-title: black;
+    --card-title: rgb(9, 18, 105);
     --border-radius: 5px;
     --transition: 0.2s ease-in-out;
 }

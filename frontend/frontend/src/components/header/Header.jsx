@@ -1,11 +1,16 @@
 import React, { Component } from "react"
 
+import logo192 from "../images2/logo192.jpeg"
+import bell_16 from "../images2/bell_16x16.jpg"
+
 class Header extends Component {
     render(){
         return(
             <header>
                 <div className="logo">
-                    <a href=" url 'siteestejasegura:index'"><img src="static 'siteestejasegura/images/Logo.png'" alt="logo Esteja Segura!"/></a>
+                    <a href="https://www.google.com.br" target="_blank" rel="noreferrer">
+                        <img src={logo192} alt="logo Esteja Segura!"/>
+                    </a>
                 </div>
                 <div className="actions">
                     <div className="search">
@@ -24,20 +29,23 @@ class Header extends Component {
                     </nav>
                 </div>
                 <div className="login">
-                    <a>Bem vindo(a),</a> |
+                    <a>Bem vindo,|</a>
                     <div>
-                        <a href="#"><img className="sininho2" src="{% static 'siteestejasegura/images/sininho2.png' %}" alt="Sininho notificação"/></a>
+                        <a href="https://www.google.com.br" target="_blank" rel="noreferrer">
+                            <img className="sininho2" src={bell_16} alt="Sininho notificação"/>
+                        </a>
                     </div>
-                    <a href="{% url 'logout' %}?next=/siteestejasegura">| LogOut</a> 
+                    <a href="{% url 'logout' %}?next=/siteestejasegura"> LogOut </a> 
                     <div>
-                    <a href="#">Crie sua conta</a>
+                    <a href="#">| Crie sua conta</a>
                     </div>
                     <div>
                         |
                     </div>
                     <div>
-                        <a href="#"><img className="sininho2" src= "{% static 'siteestejasegura/images/sininho2.png' %}" alt="Sininho notificação"/></a>
-                        
+                        <a href="https://www.google.com.br" target="_blank" rel="noreferrer">
+                            <img className="sininho2" src={bell_16} alt="Sininho notificação"/>
+                        </a>
                     </div>
                     <div>
                         |

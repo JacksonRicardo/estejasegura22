@@ -20,10 +20,12 @@ header {
     justify-content: space-evenly;
     /* gap: 20%; */
     margin-bottom: 50px;
+    background-color: rgb(117, 117, 117);
 }
 
 header > .logo > a > img {
-    height: 200px;
+    height: 170px;
+    padding-right: 1em;
 }
 
 header > .actions {
@@ -46,7 +48,7 @@ header > .login {
 }
 
 header > .login > a {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .sininho{
@@ -73,7 +75,7 @@ header > .actions > .search > input {
     border-radius: var(--border-radius);
     width: 100%;
     max-width: 500px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 header > .actions > .search > input::placeholder {
@@ -106,7 +108,7 @@ header > .actions > nav {
 }
 
 header > .actions > nav > a {
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
 header > .actions > nav > a:hover{

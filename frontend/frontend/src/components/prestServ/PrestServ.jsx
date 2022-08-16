@@ -20,8 +20,8 @@ class Prest_Serv extends Component{
         const { prestadores } = this.state
 
         return(
-            <div> 
-                <h3>Prestadores:</h3>
+            <body> 
+                {/* <h3>Prestadores:</h3>
                 {prestadores.map(prestadores => (
                     <ul>
                         <li key = {prestadores.id}>
@@ -33,8 +33,37 @@ class Prest_Serv extends Component{
                         </li>
                     </ul>
                         
-                ))}
-            </div>
+                ))} */}
+
+                <main className="principal">
+                    <table className="tabela">
+                        <tr className="coluna">
+                            <td className="topo-tabela">Nome</td>
+                            <td className="topo-tabela">Especialidade</td>
+                            <td className="topo-tabela">Gênero</td>
+                            <td className="topo-tabela">Membro desde</td>
+                            <td className="topo-tabela">Avaliação do Serviço</td> 
+                            <td className="topo-tabela">Avaliação do Prestador</td> 
+                        </tr>
+                        {prestadores.map(prestadores => (  
+                            <tr className="coluna" key = {prestadores.id}>                         
+                                <td><a href="{% url 'siteestejasegura:form_login' prestador.id %}">
+                                    {prestadores.nome}</a></td>
+                                <td><a href="/models/{{prestadores.id}}">
+                                    {prestadores.especialidade}</a></td>
+                                <td><a href="/models/{prestadores.id}">
+                                    {prestadores.genero}</a></td>
+                                <td>08/2021<a href="/models/{prestadores.id}">
+                                    {prestadores.membro_desde}</a></td>
+                                <td><a href="/models/{prestadores.id}">
+                                    {prestadores.avaliacao_servico}</a>*****</td>
+                                <td>4,5<a href="/models/{{prestadores.id}}">
+                                    {prestadores.avaliacao_prestadores}</a></td>
+                            </tr>
+                        ))} 
+                    </table>
+                </main>
+            </body>
         );
     };
 };

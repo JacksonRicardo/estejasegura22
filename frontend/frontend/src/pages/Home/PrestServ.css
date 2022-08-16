@@ -6,7 +6,7 @@ body {
     height: 80vh;
 }
 
-body > main > table{
+main > table{
     height: 50vh;
     width: 70vw;
     margin-left: 13rem;
@@ -17,7 +17,7 @@ body > main > table{
 }
 
 .coluna{
-    color: var(dark);
+    color: dark;
 }
 
 td{
