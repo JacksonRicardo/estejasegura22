@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Header from "../../components/header/Header";
 import PrestServ from "../../components/prestServ/PrestServ";
+import Login from "../../components/login/Login";
 
 import './Header.css';
 import './PrestServ.css';
@@ -12,7 +13,8 @@ class Home extends Component{
         return(
             <>
                 <Header/>
-                <PrestServ/>
+                {/* <PrestServ/> */}
+                <Login/>
             </>
         )
     }
