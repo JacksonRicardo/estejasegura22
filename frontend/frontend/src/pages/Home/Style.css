@@ -1,0 +1,62 @@
+Link {
+    color: var(--anchor);
+    transition: opacity var(--transition);
+}
+
+Link:hover {
+    opacity: 0.7;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #F47D9B; */
+    padding: 0px 0px;
+}
+
+body > .spotlight {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+body > .spotlight > h1 {
+    font-size: 28px;
+    color: var(--title);
+    font-weight: 700;
+    margin-bottom: 20px
+}
+
+body > .spotlight > .grid-categories {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+body > .spotlight > .grid-categories > .category {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    box-shadow: 6px 6px 16px 6px rgba(135,127,135,0.53);
+    transition: transform var(--transition);
+}
+
+body > .spotlight > .grid-categories > .category:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+body > .spotlight > .grid-categories > .category > span {
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--card-title);
+    font-weight: 600;
+    text-align: center;
+    line-height: 24px;
+}

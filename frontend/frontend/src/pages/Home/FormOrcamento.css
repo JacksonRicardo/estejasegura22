@@ -1,0 +1,133 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    padding: 30px 40px;
+    height: 80vh;
+    font-size: 10px;
+} */
+
+body > main > .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+    flex-wrap: wrap;
+}
+
+body > main > .container > .cards{
+    color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background-color: #7270db;
+}
+
+body > main > .container > .cards_right{
+    color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background-color: #9370DB;
+}
+
+body > main > .container > .cards > .select > h2, h3{
+    font-weight: bold;
+}
+
+body > main > .container > .cards > h2, h3, p{
+    margin-bottom: 0.7rem;
+}
+
+.select:hover{
+    color: var(--card-title);
+}
+
+.form{
+    margin-bottom: 0.7rem;
+    color: var(--anchor);
+}
+
+/* label {
+    display: inline-block;
+    text-align: left;
+} */
+
+textarea{
+    vertical-align: top;
+    color: var(--card-title);
+    font-size: 1rem;
+    margin-top: 10px;
+
+}
+
+textarea, input{
+    border: none;
+    border-radius: 00.5rem;
+}
+
+.form > ::placeholder{
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--anchor);
+    opacity: 0.3;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+.button1{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(75, 75, 75);
+    border: none;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.button1:hover{
+    background-color: rgb(218, 45, 45);
+}
+
+.button2:hover{
+    background-color: rgb(13, 161, 13);
+}
+
+.input{
+    font-size: 18px;
+}
+
+.negrito{
+    font-weight:bold;
+}

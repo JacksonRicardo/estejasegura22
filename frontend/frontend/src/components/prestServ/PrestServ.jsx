@@ -1,7 +1,9 @@
 //import axios from "axios";
 import React, { Component } from "react";
 import api  from '../../main';
-class Prest_Serv extends Component{
+
+import { Link } from "react-router-dom";
+class PrestServ extends Component{
 
     state = {
         prestadores: [],
@@ -36,19 +38,19 @@ class Prest_Serv extends Component{
                 ))} */}
 
                 <main className="principal">
-                    <table className="tabela">
+                    <table className="tabela" class="bordered striped centered" >
                         <tr className="coluna">
                             <td className="topo-tabela">Nome</td>
                             <td className="topo-tabela">Especialidade</td>
                             <td className="topo-tabela">Gênero</td>
                             <td className="topo-tabela">Membro desde</td>
                             <td className="topo-tabela">Avaliação do Serviço</td> 
-                            <td className="topo-tabela">Avaliação do Prestador</td> 
+                            <td className="topo-tabela">Nota do Prestador</td> 
                         </tr>
                         {prestadores.map(prestadores => (  
                             <tr className="coluna" key = {prestadores.id}>                         
-                                <td><a href="{% url 'siteestejasegura:form_login' prestador.id %}">
-                                    {prestadores.nome}</a></td>
+                                <td><Link to="/FormOrcamento">
+                                    {prestadores.nome}</Link></td>
                                 <td><a href="/models/{{prestadores.id}}">
                                     {prestadores.especialidade}</a></td>
                                 <td><a href="/models/{prestadores.id}">
@@ -68,4 +70,4 @@ class Prest_Serv extends Component{
     };
 };
 
-export default Prest_Serv
+export default PrestServ
